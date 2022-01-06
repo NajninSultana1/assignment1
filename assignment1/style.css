@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner-part{
+    display: flex;
+}
+
+#banner-part .text_part{
+    margin:50px 70px;
+    width: 50%;
+}
+
+#banner-part .text_part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 10px 0;
+    padding-left: 12px;
+}
+
+
+#banner-part .text_part .border{
+    border-left: 5px solid rgb(38, 138, 108);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#banner-part .text_part .color{
+    color: #0099fff6;
+}
+
+#banner-part .text_part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 550px;
+    margin: 30px 0;
+}
+
+
+#banner-part .text_part .scroll_text{
+    color: #242424;
+}
+
+#banner-part .text_part a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(20deg,rgba(0, 225, 255, 0.692),rgba(0, 34, 128, 0.959),rgba(0, 255, 157, 0.897));
+    border-radius: 6px;
+    color: rgb(233, 222, 222);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#banner-part .img{
+    width: 50%;
+}
+
+#banner-part .img img{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20px
+    ;
+}
+
+
+
+#mission-part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 12px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#mission-part .year{
+    color: rgb(0, 174, 255);
+}
+
+#mission-part .parrents{
+    display: flex;
+    margin: 50px 40px;
+}
+
+#mission-part .parrents .common{
+    width: 24%;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin: 0 25px;
+}
+
+#mission-part .parrents .common img{
+    width: 45%;
+}
+
+#mission-part .parrents .common h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#mission-part .parrents .common p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #252525;
+}
+
+#mission-part .parrents .mission{
+    background: rgba(0, 247, 255, 0.192);
+}
+
+#mission-part .parrents .vision{
+    background: rgba(0, 119, 255, 0.171);
+}
+
+#mission-part .parrents .goal{
+    background: rgba(0, 47, 255, 0.13);
+}
+
+
+
+#developer-part{
+   
+    background: url(./images/shape-1.png)no-repeat left;
+    background-size: 220px;
+    background-position-x: 20px
+    ;
+}
+
+#developer-part .main{
+    display: flex;
+    margin: 100px 80px;
+}
+
+#developer-part .img-part{
+    width: 30%;
+}
+
+#developer-part img{
+    width: 100%;
+}
+
+#developer-part .text-part{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+#developer-part .text-part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+
+#developer-part .text-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#developer-part .text-part a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(18deg,rgba(0, 255, 200, 0.692),rgba(0, 41, 128, 0.959));
+    border-radius: 6px;
+    color: rgb(245, 244, 244);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#community-part{
+   
+    background: url(./images/shape-1.png)no-repeat;
+    background-position: right;
+    background-size: 220px;
+    background-position-y: 225px;
+    background-position-x: 990px;
+}
+
+#community-part .main{
+    display: flex;
+    margin: 30px 80px;
+}
+
+#community-part .img-part{
+    width: 30%;
+    margin-left: 80px;
+}
+
+#community-part img{
+    width: 100%;
+}
+
+#community-part .text-part{
+    width: 50%;
+}
+
+
+#community-part .text-part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+
+#community-part .text-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#community-part .text-part a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(18deg,rgba(0, 255, 200, 0.692),rgba(0, 41, 128, 0.959));
+    border-radius: 6px;
+    color: rgb(238, 236, 236);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+#contact-part .headline{
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contact-part .headline h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+#contact-part .form_main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#contact-part .form_main input{
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #111;
+    outline: none;
+    border: 1px solid #353535;
+}
+
+#contact-part textarea{
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #111;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+    border: 1px solid #353535;
+}
+
+#contact-part .button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact-part .button button{
+    padding: 5px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #eeeaea;
+    background: linear-gradient(18deg,rgba(0, 81, 255, 0.692),rgba(0, 124, 128, 0.959));
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+footer{
+    text-align: center;
+    background: black;
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+footer h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(209, 209, 209);
+}
+
+footer .year{
+    color: rgba(0, 217, 255, 0.623);
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6da7a7;
+}
